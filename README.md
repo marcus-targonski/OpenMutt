@@ -29,12 +29,18 @@ a few scripts written by me with help from Dylan Ballback's Odrive Can Python li
 ## Recreating OpenMutt in a simulation environment
 
 ### Where to start
+you will need a fairly capable computer running Ubuntu 20.04 that you have sudo priveleges on, unfortunately this will not be possible in the computer lab if you want to run gazebo, I will check later if you can use RViz, if so that would be nice.  
 
 ### Installing ROS
+Install ROS Noetic  
+https://wiki.ros.org/noetic/Installation/Ubuntu  
 
 ### Downloading packages
+Install ROS control  
+https://wiki.ros.org/ros_control  
 
 ### Adding OpenMutt
+If you are so inclided you can build your own openMutt URDF, however I would reccomend using that time to play with and try controlling openmutt instead of that lovely experience... so I have attached the URDF.
 
 ### Running OpenMutt simulation
 
