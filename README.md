@@ -18,8 +18,11 @@ OpenMutt uses:
 12x MAD M6C12
 
 ## OpenMutt Software  
-ROS Noetic  
-[MIT CHVMP controller  ]([url](https://github.com/chvmp/champ))
+ROS Noetic with the:
+[MIT CHVMP controller  ](https://github.com/chvmp/champ)
+
+and files above, PIside.py goes on the raspberry pi which is connected to the LattePanda Delta 3 via Cat5e
+jointTrajectory listener goes into your champ catkin workspace
 
 a few scripts written by me with help from Dylan Ballback's Odrive Can Python library
 
