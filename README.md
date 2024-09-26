@@ -15,13 +15,13 @@ OpenMutt uses:
 1x Raspberry Pi 4B with a waveshare can hat  
 1x latte panda delta 3  
 12x Odrive S1  
-12x drone motors (I forgot which one will update soon but I also may want to change it)  
+12x MAD M6C12
 
 ## OpenMutt Software  
 ROS Noetic  
-MIT CHVMP controller  
+[MIT CHVMP controller  ]([url](https://github.com/chvmp/champ))
 
-a few scripts written by me with help from Dylan Ballback's Odrive Can Python library  
+a few scripts written by me with help from Dylan Ballback's Odrive Can Python library
 
 
 ### Description
