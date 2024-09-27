@@ -23,8 +23,7 @@ ROS Noetic with the:
 
 and files above, PIside.py goes on the raspberry pi which is connected to the LattePanda Delta 3 via Cat5e
 jointTrajectory listener goes into your champ catkin workspace
-
-a few scripts written by me with help from Dylan Ballback's Odrive Can Python library
+I will add quarter model and calibration scripts shortly
 
 
 ### Description
@@ -47,39 +46,19 @@ If you are so inclided you can build your own openMutt URDF, however I would rec
 
 ### Running OpenMutt simulation
 
-## Build an OpenMutt
 
-### Bill Of Materials (always a work in progress)
+## Physical Setup
+Dawg timne
+### PI Can lines
+To set up the CAN lines if it is a new PI, follow these instructions:
+[waevshare 2 line CAN](https://www.waveshare.com/wiki/2-CH_CAN_HAT)
 
-### Mechanical
 
-#### Body
 
-#### Gearbox
 
-#### Legs
-
-#### feet
-
-### Electrical
-
-#### Wiring
-
-## Get Hardware and Software talking
-
-### What is ROS
-
-#### Why ROS
-
-##### What if I did it without ROS, its scary and confusing
-
-### Odrives
-
-#### Odrive web GUI setup
-
-#### Raspberry Pi CAN Setup
 
 #### Controlling the Motors using Pyodrivecan
+The motor control should be taken care of using the PIside script but please reference [Dyan Ballback's Github](https://github.com/dylanballback) for more information
 
 ### Real World interfaces
 
