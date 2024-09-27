@@ -56,7 +56,8 @@ To set up the CAN lines if it is a new PI, follow these instructions:
 
 ### Turning on OpenMutt
 Power on everything, motors, LattePanda, PI, the first thing to do is set up the can communication, run the canSetup.sh bash script to put in the commands.
-next time to calibrate, position the dog as such:
+next time to calibrate, position the dog as such:\
+
 ![image](https://github.com/user-attachments/assets/d2d99799-94b7-4e2d-9736-f5d828a2ccbe)
 now run the script ODriveLiveCheck.py to calibrate the motors, the first time won't work (i dont know either) so run it one more time with the dog in the same position.
 Once all the motors are flashing green and the calibration script has finished, run the PIside script. This starts the service where it is listening for commands, at this point the dog is "armed" so be careful.
