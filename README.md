@@ -46,6 +46,17 @@ https://wiki.ros.org/ros_control
 If you are so inclided you can build your own openMutt URDF, however I would reccomend using that time to play with and try controlling openmutt instead of that lovely experience... so I have attached the URDF.
 
 ### Running OpenMutt simulation
+download the zip file of everything, it is in the uploaded files. 
+
+move the openMutt folder into your src folder, the file structure should look something like :
+
+~/catkin_ws/src/openMutt/
+
+Why? because that way you don't end up like I did when I was working and had a bunch of random catkin workspaces all named random things then lost the urdf and had to redo a good chunk of it during a hurricane, but I digress
+
+from here go back to ~/catkin_ws then type catkin_make in the terminal.
+
+You should now be ready to follow the instructions on the Champ github linked here: [MIT CHVMP controller  ](https://github.com/chvmp/champ)
 
 
 ## Physical Setup
