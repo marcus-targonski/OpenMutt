@@ -72,9 +72,35 @@ next time to calibrate, position the dog as such:
 ![image](https://github.com/user-attachments/assets/d2d99799-94b7-4e2d-9736-f5d828a2ccbe)
 
 now run the script ODriveLiveCheck.py to calibrate the motors, the first time won't work (i dont know either) so run it one more time with the dog in the same position.
+
 Once all the motors are flashing green and the calibration script has finished, run the PIside script. This starts the service where it is listening for commands, at this point the dog is "armed" so be careful.
-Switch to the LattePanda desktop and run the ros package with Rviz on. Then rosrun the jointTrajectoryListener.py script from a different termninal in that ros package this will cause the dog to take the shape in rviz so keep away!
+
+Switch to the LattePanda desktop and run the ros package with Rviz on.
+
+Then rosrun the jointTrajectoryListener.py script from a different termninal in that ros package this will cause the dog to take the shape in rviz so keep away!
+
 Lastly, run whatever control mode you want, rosrunning champ_teleop is a good place to start.
+
+the commands should look something like this
+
+source openMuttSetupPI.sh
+(you will see a candump here)
+ODriveLiveCheck.py
+(kind of works the first time)
+ODriveLiveCheck.py
+(all should be green)
+PIside.py
+
+*switch to the LattePanda Delta 3
+source openMuttSetupLP.sh
+roslaunch openMutt_config bringup.launch rviz:= true
+(I am going by memory here and can update as we progress)
+rosrun jointTrajlistener.py
+(be careful it will move when you press enter here!)
+roslaunch champ_teleop champ_teleop
+
+I am not going to make either of these into a bash script of anything until we are running headless and there is less oversight needed.
+
 
 
 
