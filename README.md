@@ -84,19 +84,32 @@ Lastly, run whatever control mode you want, rosrunning champ_teleop is a good pl
 the commands should look something like this
 
 source openMuttSetupPI.sh
+
 (you will see a candump here)
+
 ODriveLiveCheck.py
+
 (kind of works the first time)
+
 ODriveLiveCheck.py
+
 (all should be green)
+
 PIside.py
 
+
 *switch to the LattePanda Delta 3
+
 source openMuttSetupLP.sh
+
 roslaunch openMutt_config bringup.launch rviz:= true
+
 (I am going by memory here and can update as we progress)
+
 rosrun jointTrajlistener.py
+
 (be careful it will move when you press enter here!)
+
 roslaunch champ_teleop champ_teleop
 
 I am not going to make either of these into a bash script of anything until we are running headless and there is less oversight needed.
