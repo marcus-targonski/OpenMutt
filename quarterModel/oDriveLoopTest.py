@@ -11,16 +11,16 @@ velocity_limit = 4.0
 
 #LEG 1
 #node 2 front left hipx
-odrive11 = pyodrivecan.ODriveCAN(1)
+odrive11 = pyodrivecan.ODriveCAN(1, canBitRate=1000000)
 odrive11.initCanBus()
 
 # Set up Node 1 front left shoulder (y)
-odrive12 = pyodrivecan.ODriveCAN(2)
+odrive12 = pyodrivecan.ODriveCAN(2, canBitRate=1000000)
 odrive12.initCanBus()
 #odrive1.setAxisState("closed_loop_control")
 
 # Set up Node_ID 0 front left knee
-odrive13 = pyodrivecan.ODriveCAN(3)
+odrive13 = pyodrivecan.ODriveCAN(3, canBitRate=1000000)
 odrive13.initCanBus()
 
 
