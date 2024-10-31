@@ -1,3 +1,10 @@
+# Simulationg OpenMutt
+Follow the champ install instructions on their github
+https://github.com/chvmp/champ
+clone this branch into the src
+catkin_make the package
+follow instructions below
+
 
 ## 1. Quick Start
 
