@@ -71,7 +71,7 @@ next time to calibrate, position the dog as such:
 
 ![image](https://github.com/user-attachments/assets/d2d99799-94b7-4e2d-9736-f5d828a2ccbe)
 
-now run the script ODriveLiveCheck.py to calibrate the motors, the first time won't work (i dont know either) so run it one more time with the dog in the same position.
+now run the script ODriveLiveCheck.py to calibrate the motors, the first time won't work (i dont know either(I know now the hip motors were flashed incorrectly but I dont have the time to flash them since this works for now)) so run it one more time with the dog in the same position.
 
 Once all the motors are flashing green and the calibration script has finished, run the PIside script. This starts the service where it is listening for commands, at this point the dog is "armed" so be careful.
 
